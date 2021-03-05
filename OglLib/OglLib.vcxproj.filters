@@ -24,6 +24,9 @@
     <ClInclude Include="ProgramGLSL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CameraFps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exception.cpp">
@@ -32,8 +35,11 @@
     <ClCompile Include="ProgramGLSL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CameraFps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <Text Include="ReadMe.md" />
   </ItemGroup>
 </Project>

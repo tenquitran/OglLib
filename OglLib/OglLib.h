@@ -30,6 +30,7 @@
 // GLM library.
 #define GLM_FORCE_RADIANS    // enforce all angles to be in radians, not in degrees
 #include <glm/glm.hpp>       // the most common GLM headers
+#include <glm/gtc/matrix_transform.hpp>
 
 // WGL (Windows OpenGL).
 
@@ -44,6 +45,9 @@
 #include "Exception.h"
 
 #include "ProgramGLSL.h"
+
+#include "CameraFps.h"
+
 
 namespace OglLib
 {
