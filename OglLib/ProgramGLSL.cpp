@@ -9,7 +9,6 @@ using namespace OglLib;
 
 ProgramGLSL::ProgramGLSL()
 {
-	
 }
 
 ProgramGLSL::~ProgramGLSL()
